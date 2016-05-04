@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_agenda"
+            android:title="title 1" />
+        <item
+            android:id="@+id/nav_meetings"
+            android:title="title 2" />
+            </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_invite"
+                android:title="Invite" />
+
+        </menu>
+    </item>
+
+</menu>
